@@ -1,0 +1,33 @@
+{
+  "scenario": "growth-2x-with-faster-handlers",
+  "baseline_total": 338.120748,
+  "scenario_total": 617.809021,
+  "delta_total": 279.688273,
+  "delta_percent": 82.72,
+  "movers": [
+    {
+      "function": "image-thumbnail",
+      "baseline": 67.963695,
+      "scenario": 137.307622,
+      "delta": 69.343927
+    },
+    {
+      "function": "nightly-etl",
+      "baseline": 91.040352,
+      "scenario": 156.629117,
+      "delta": 65.588765
+    },
+    {
+      "function": "search-indexer",
+      "baseline": 84.629243,
+      "scenario": 145.868445,
+      "delta": 61.239202
+    },
+    {
+      "function": "api-orders",
+      "baseline": 34.903443,
+      "scenario": 65.345233,
+      "delta": 30.44179
+    }
+  ]
+}

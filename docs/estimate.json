@@ -1,0 +1,122 @@
+{
+  "currency": "USD",
+  "lines": [
+    {
+      "function": "nightly-etl",
+      "requests": 310000,
+      "gb_seconds": 5580240.0,
+      "egress_gb": 3.0,
+      "request_cost": 0.120076,
+      "compute_cost": 90.620077,
+      "egress_cost": 0.300199,
+      "free_tier_credit": 2.447834,
+      "total": 91.040352,
+      "share": 26.93
+    },
+    {
+      "function": "search-indexer",
+      "requests": 780000,
+      "gb_seconds": 5149596.0,
+      "egress_gb": 7.0,
+      "request_cost": 0.302127,
+      "compute_cost": 83.626651,
+      "egress_cost": 0.700465,
+      "free_tier_credit": 2.349529,
+      "total": 84.629243,
+      "share": 25.03
+    },
+    {
+      "function": "image-thumbnail",
+      "requests": 2400000,
+      "gb_seconds": 1539840.0,
+      "egress_gb": 420.0,
+      "request_cost": 0.92962,
+      "compute_cost": 25.006168,
+      "egress_cost": 42.027907,
+      "free_tier_credit": 9.060356,
+      "total": 67.963695,
+      "share": 20.1
+    },
+    {
+      "function": "api-orders",
+      "requests": 18400000,
+      "gb_seconds": 1316060.0,
+      "egress_gb": 64.0,
+      "request_cost": 7.127089,
+      "compute_cost": 21.372102,
+      "egress_cost": 6.404252,
+      "free_tier_credit": 2.070934,
+      "total": 34.903443,
+      "share": 10.32
+    },
+    {
+      "function": "pdf-render",
+      "requests": 410000,
+      "gb_seconds": 1293336.0,
+      "egress_gb": 58.0,
+      "request_cost": 0.15881,
+      "compute_cost": 21.003077,
+      "egress_cost": 5.803854,
+      "free_tier_credit": 1.713903,
+      "total": 26.96574,
+      "share": 7.98
+    },
+    {
+      "function": "auth-token",
+      "requests": 26000000,
+      "gb_seconds": 276300.0,
+      "egress_gb": 0.0,
+      "request_cost": 10.070886,
+      "compute_cost": 4.486962,
+      "egress_cost": 0.0,
+      "free_tier_credit": 0.447161,
+      "total": 14.557849,
+      "share": 4.31
+    },
+    {
+      "function": "api-catalog",
+      "requests": 9700000,
+      "gb_seconds": 322867.5,
+      "egress_gb": 38.0,
+      "request_cost": 3.757215,
+      "compute_cost": 5.243193,
+      "egress_cost": 3.802525,
+      "free_tier_credit": 1.018202,
+      "total": 12.802934,
+      "share": 3.79
+    },
+    {
+      "function": "webhook-dispatch",
+      "requests": 5200000,
+      "gb_seconds": 125775.0,
+      "egress_gb": 12.0,
+      "request_cost": 2.014177,
+      "compute_cost": 2.042518,
+      "egress_cost": 1.200797,
+      "free_tier_credit": 0.358762,
+      "total": 5.257492,
+      "share": 1.55
+    }
+  ],
+  "total_requests": 63200000,
+  "total_gb_seconds": 15604014.5,
+  "total_egress_gb": 602.0,
+  "billable_requests": 61200000,
+  "billable_gb_seconds": 15204014.5,
+  "billable_egress_gb": 502.0,
+  "subtotal": 338.120748,
+  "free_tier_credit": 19.46668,
+  "minimum_adjustment": 0.0,
+  "total": 338.120748,
+  "free_tier_applied": true,
+  "sheet": {
+    "currency": "USD",
+    "request_price_per_million": 0.4,
+    "gb_second_price": 1.66667e-05,
+    "egress_price_per_gb": 0.12,
+    "free_requests_per_month": 2000000,
+    "free_gb_seconds_per_month": 400000,
+    "free_egress_gb_per_month": 100.0,
+    "minimum_monthly_charge": 0.0
+  }
+}

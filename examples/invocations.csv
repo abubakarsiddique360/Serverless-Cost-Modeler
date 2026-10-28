@@ -1,0 +1,9 @@
+function,requests,avg_duration_ms,memory_mb,cold_starts,avg_cold_start_ms,egress_gb
+api-orders,18400000,142,512,9200,2100,64
+api-catalog,9700000,88,384,4100,1800,38
+image-thumbnail,2400000,640,1024,1200,3200,420
+nightly-etl,310000,18000,1024,60,4000,3
+webhook-dispatch,5200000,96,256,2600,1500,12
+pdf-render,410000,2100,1536,340,3600,58
+search-indexer,780000,3300,2048,190,4200,7
+auth-token,26000000,42,256,11000,1200,0

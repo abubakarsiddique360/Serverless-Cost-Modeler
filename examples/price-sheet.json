@@ -1,0 +1,10 @@
+{
+  "currency": "USD",
+  "request_price_per_million": 0.40,
+  "gb_second_price": 0.0000166667,
+  "egress_price_per_gb": 0.12,
+  "free_requests_per_month": 2000000,
+  "free_gb_seconds_per_month": 400000,
+  "free_egress_gb_per_month": 100.0,
+  "minimum_monthly_charge": 0.0
+}

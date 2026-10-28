@@ -1,0 +1,8 @@
+{
+  "name": "growth-2x-with-faster-handlers",
+  "requests_multiplier": 2.0,
+  "duration_multiplier": 0.85,
+  "egress_multiplier": 2.0,
+  "cold_start_multiplier": 2.0,
+  "memory_multiplier": 1.0
+}
